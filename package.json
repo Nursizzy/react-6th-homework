@@ -1,5 +1,6 @@
 {
   "name": "react-6th-homework",
+  "homepage": "http://nursizzy.github.io/react-6th-homework",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -45,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.19.0"
+    "eslint": "^8.19.0",
+    "gh-pages": "^4.0.0"
   }
 }
