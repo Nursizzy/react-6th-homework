@@ -1,0 +1,23 @@
+.tableHeaderCenter {
+  display: flex;
+
+  width: 90%;
+  align-items: center;
+  color: black;
+
+  justify-content: center;
+  align-items: baseline;
+  text-transform: uppercase;
+}
+
+.tableHeader i {
+  font-size: 2rem;
+}
+
+.tableHeader {
+  padding-left: 1rem;
+  padding-right: 2rem;
+  width: 100%;
+  background-color: #61dafb;
+  border-bottom: 3px solid #282c34;
+}

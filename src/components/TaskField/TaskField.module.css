@@ -1,0 +1,49 @@
+.completed {
+  margin-left: 1rem;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.taskField {
+  width: 90%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #20232a;
+}
+
+.favouriteIcon {
+  margin-right: 10px;
+}
+
+.completedIcon {
+  margin-left: 10px;
+}
+
+.completedText {
+  text-decoration: line-through;
+}
+
+.logo {
+  width: 30px;
+  filter: invert(88%) sepia(22%) saturate(3519%) hue-rotate(320deg)
+    brightness(110%) contrast(100%);
+}
+
+.unsetStar {
+  width: 30px;
+}
+
+.completeIcon {
+  width: 32px;
+  filter: invert(90%) sepia(5%) saturate(2173%) hue-rotate(67deg)
+    brightness(82%) contrast(92%);
+}
+.incompleteIcon {
+  width: 32px;
+}
+
+.taskField img {
+  cursor: pointer;
+}
